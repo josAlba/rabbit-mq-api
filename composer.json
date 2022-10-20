@@ -1,0 +1,21 @@
+{
+    "name": "josalba/rabbit-mq-api",
+    "autoload": {
+        "psr-4": {
+            "Josalba\\RabbitMqApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "DuKe",
+            "email": "josalba@icloud.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.5",
+        "jms/serializer-bundle": "^4.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
