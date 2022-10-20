@@ -13,7 +13,7 @@ class Queue extends RequestsAbstract implements RequestsInterface
     /**
      * @param string|null $vhost
      *
-     * @return ResponseInterface[]
+     * @return Response[]
      * @throws GuzzleException
      */
     public function get(?string $vhost = null): array

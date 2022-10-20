@@ -42,12 +42,12 @@ class Response implements ResponseInterface
         return $this->vhost;
     }
 
-    public function getConsumers(): string
+    public function getConsumers(): int
     {
         return $this->consumers;
     }
 
-    public function getMessages(): string
+    public function getMessages(): int
     {
         return $this->messages;
     }
